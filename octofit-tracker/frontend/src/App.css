@@ -1,0 +1,80 @@
+
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  color: #222;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.7rem;
+  display: flex;
+  align-items: center;
+}
+.navbar-nav .nav-link {
+  color: #f8f9fa !important;
+  font-weight: 500;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
+  color: #ffe082 !important;
+}
+
+.card {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+.card-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.table {
+  background: #f7fafc;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.table-dark {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  color: #fff;
+}
+.btn {
+  border-radius: 2rem;
+  font-weight: 600;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+.btn-success {
+  background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%);
+  color: #fff;
+}
+.btn-info {
+  background: linear-gradient(90deg, #43cea2 0%, #185a9d 100%);
+  color: #fff;
+}
+.btn-warning {
+  background: linear-gradient(90deg, #f7971e 0%, #ffd200 100%);
+  color: #fff;
+}
+.btn-danger {
+  background: linear-gradient(90deg, #f857a6 0%, #ff5858 100%);
+  color: #fff;
+}
+.btn-primary {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  color: #fff;
+}
+.App-link {
+  color: #007bff;
+  text-decoration: underline;
+}
+.App-link:hover {
+  color: #00c6ff;
+}
+.display-4 {
+  color: #007bff;
+  font-weight: 800;
+}
